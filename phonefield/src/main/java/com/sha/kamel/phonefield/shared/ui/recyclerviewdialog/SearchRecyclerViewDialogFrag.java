@@ -15,7 +15,7 @@ import android.widget.Filterable;
 
 import com.jakewharton.rxbinding2.widget.RxTextView;
 import com.sha.kamel.andrutil.ObservableUtil;
-import com.sha.kamel.formvalidator.R;
+import com.sha.kamel.phonefield.R;
 import com.sha.kamel.phonefield.shared.ui.adapter.BaseRecyclerAdapter;
 import com.trello.rxlifecycle2.components.RxDialogFragment;
 

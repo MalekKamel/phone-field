@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 
 import com.sha.kamel.andrutil.Callback;
-import com.sha.kamel.formvalidator.R;
+import com.sha.kamel.phonefield.R;
 import com.sha.kamel.phonefield.shared.ui.adapter.BaseRecyclerAdapter;
 import com.sha.kamel.phonefield.shared.ui.adapter.BaseViewHolder;
 import com.sha.kamel.phonefield.shared.ui.adapter.RecyclerAdapterCallback;

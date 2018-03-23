@@ -6,8 +6,6 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.ViewGroup;
 
-import com.sha.kamel.formvalidator.R;
-
 /**
  * Implementation of PhoneField that uses TextInputLayout
  * Created by Ismail on 5/6/16.
