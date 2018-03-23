@@ -87,8 +87,7 @@ dependencies {
     implementation libraries.rxbinding_recyclerview_7
     implementation libraries.libphonenumber
     implementation libraries.andrutil
-    implementation libraries.butterknife
-    implementation libraries.butterknifeCompiler
+
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
