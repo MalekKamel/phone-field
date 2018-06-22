@@ -11,11 +11,6 @@
 # Installation
 
 ```gradle
-repositories {
-        maven {
-            url  "https://dl.bintray.com/shabankamel/android"
-        }
-    }
 dependencies {
     implemetation 'com.sha.kamel:phonefield:1.2.1@aar'
 }
