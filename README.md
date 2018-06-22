@@ -1,10 +1,10 @@
 # PhoneFiled
 
 
-##### PhoneFiled is an easy way to select country phone and validate the entered number.
+### PhoneFiled is an easy way to select country phone and validate the entered number.
 
-##### It's a fork from https://github.com/lamudi-gmbh/android-phone-field.
-##### I added a search and arabic names for countries.
+### It's a fork from https://github.com/lamudi-gmbh/android-phone-field.
+### I added a search and arabic names for countries.
 
 ![alt text](https://github.com/ShabanKamell/phone-field/blob/master/raw/phone-field.gif "Sample App")
 
