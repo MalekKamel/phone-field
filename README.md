@@ -6,6 +6,8 @@
 ##### It's a fork from https://github.com/lamudi-gmbh/android-phone-field.
 ##### I added a search and arabic names for countries.
 
+![alt text](https://github.com/ShabanKamell/phone-field/master/raw/phone-field.gif "Sample App")
+
 # Installation
 
 ```gradle
