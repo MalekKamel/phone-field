@@ -2,6 +2,7 @@ package com.sha.kamel.phonefield;
 
 import android.content.Context;
 import android.support.design.widget.TextInputLayout;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.ViewGroup;
@@ -52,7 +53,7 @@ public class PhoneInputLayout extends PhoneField {
 
   @Override
   public void setError(String error) {
-    if (error == null || error.length() == 0) {
+    if (TextUtils.isEmpty(error)) {
       mTextInputLayout.setErrorEnabled(false);
     } else {
       mTextInputLayout.setErrorEnabled(true);

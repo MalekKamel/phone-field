@@ -19,22 +19,11 @@ public class MainActivity extends AppCompatActivity {
     final PhoneInputLayout phoneInputLayout = findViewById(R.id.phone_input_layout);
     final PhoneEditText phoneEditText = findViewById(R.id.edit_text);
 
+    // Must call init, else, you'll get IllegalStateException when clicking country view.
     phoneInputLayout.init(this);
     phoneEditText.init(this);
 
-//    CustomPhoneInputLayout customPhoneInputLayout = new CustomPhoneInputLayout(this, "EG");
-
-//    final ViewGroup viewGroup = (ViewGroup) ((ViewGroup) this
-//        .findViewById(android.R.id.content)).getChildAt(0);
-//
-//    viewGroup.addView(customPhoneInputLayout, 2);
-
-
     final Button button = findViewById(R.id.submit_button);
-
-    assert phoneInputLayout != null;
-    assert phoneEditText != null;
-    assert button != null;
 
     phoneInputLayout.setHint(R.string.phone_hint);
     phoneInputLayout.setDefaultCountry("EG");
@@ -59,10 +48,15 @@ public class MainActivity extends AppCompatActivity {
       }
 
       if (valid) {
-        Toast.makeText(MainActivity.this, R.string.valid_phone_number, Toast.LENGTH_LONG).show();
+        toast(R.string.valid_phone_number);
       } else {
-        Toast.makeText(MainActivity.this, R.string.invalid_phone_number, Toast.LENGTH_LONG).show();
+        toast(R.string.invalid_phone_number);
       }
     });
   }
+
+  private void toast(int res) {
+    Toast.makeText(this, res, Toast.LENGTH_LONG).show();
+  }
+
 }

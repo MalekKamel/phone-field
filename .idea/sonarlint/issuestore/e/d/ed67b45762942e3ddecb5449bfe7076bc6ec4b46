@@ -1,6 +1,4 @@
 
-Csquid:S1214""Move constants to a class or enum.(®Ãª·ýÿÿÿÿ8„Ø´ï¤,
-ksquid:UselessImportCheck"=Remove this unused import 'android.support.annotation.IdRes'.(þÚ·Ùøÿÿÿÿ8„Ø´ï¤,
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8„Ø´ï¤,
-fsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¨›8„Ø´ï¤,
-squid:UselessImportCheck"oRemove this unused import 'com.sha.kamel.phonefield.shared.ui.recyclerviewdialog.SearchRecyclerViewDialogFrag'.(¨ß‡Éúÿÿÿÿ8„Ø´ï¤,
+Csquid:S1214""Move constants to a class or enum.(®Ãª·ýÿÿÿÿ8ë»­ÿ«,
+fsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¨›8ë»­ÿ«,
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ë»­ÿ«,

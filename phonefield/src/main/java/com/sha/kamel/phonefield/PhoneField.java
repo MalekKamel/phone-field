@@ -12,7 +12,6 @@ import android.widget.LinearLayout;
 import com.google.i18n.phonenumbers.NumberParseException;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
-import com.sha.kamel.phonefield.R;
 import com.sha.kamel.phonefield.shared.ui.adapter.RecyclerAdapterCallback;
 import com.sha.kamel.phonefield.shared.ui.recyclerviewdialog.SearchRecyclerViewDialogFrag;
 

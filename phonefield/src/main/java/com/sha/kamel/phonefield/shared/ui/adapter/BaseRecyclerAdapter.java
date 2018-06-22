@@ -2,13 +2,10 @@ package com.sha.kamel.phonefield.shared.ui.adapter;
 
 import android.app.Fragment;
 import android.content.Context;
-import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
-
-import com.sha.kamel.phonefield.shared.ui.recyclerviewdialog.SearchRecyclerViewDialogFrag;
 
 import java.util.List;
 

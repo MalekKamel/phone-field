@@ -61,3 +61,5 @@ pphonefield/src/main/java/com/sha/kamel/phonefield/shared/ui/recyclerviewdialog/
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 G
 phonefield/build.gradle,1/7/1729046cf756328e765f877a10f02dba23fd40ef
+W
+'phonefield/src/main/AndroidManifest.xml,b/e/be04a86594fec9d7d148cd1ad4e2e18bd16e791b
